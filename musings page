@@ -1,0 +1,61 @@
+<html>
+<head>
+  <title>My first styled page</title>
+</head>
+ <style type="text/css">
+ body{
+   padding-left: 14em;
+   font-family: sans-serif;
+   color: darkred;
+   background-color: palegreen;
+  }
+  ul.navbar{
+    list-style-type: upper-norwegian ;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1em;
+    left: 2em;
+    width: 8em;
+  }
+ h1{
+    font: bold serif;
+    font-size: large;
+    color: darkred;
+  }
+  ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black;
+   }
+   ul.navbar li{
+    text-decoration: none}
+    a: link{
+      color: blue;
+    }
+   a:visited{
+    color: purple;
+   }
+</style>
+</head>
+<!-- Site navigation menu -->
+<ul class="navbar">
+  <li><a href="lab2.html">Home page</a>
+  <li><a href="musings.html">Musings</a>
+  <li><a href="town.html">My town</a>
+  <li><a href="links.html">Links</a>
+</ul>
+ <body>
+<!-- Main content -->
+<h1> Thought of the life </h1>
+<img height="200" src="apj.jpg"/>
+<p>APJ abdul kalam was a great leader and scientist
+ 
+<p>"If you fail, never give up because FAIL means "First Attempt In Learning". "Failure will never overtake me if my determination to succeed is strong enough." "All of us do not have equal talent. But , all of us have an equal opportunity to develop our talents."
+ 
+
+ 
+<!-- Sign and date the page, it's only polite! --> 
+</body>
+</html>
